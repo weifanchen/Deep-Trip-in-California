@@ -1,0 +1,160 @@
+body {
+  position:absolute;
+  /* background-image: url('background1.jpg'); */
+  background-color: #f5f5f5;
+  background-size: cover;
+}
+h1 {
+  color: #767676;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+.plot_name_h3{
+  color: #767676;
+  font-size: 24px;
+  font:16px Arial,sans-serif bold;
+  font-style:normal;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  font-weight: 1200px;
+}
+
+.room_type_words{
+  color: #767676;
+  font-size: 14px;
+}
+
+
+table {
+  position: relative;
+  top: 0px;
+  left: -10px;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-weight: 600;
+}
+.input {
+  color: #767676;
+}
+.left-part {
+  width: 1300px;
+  height: 820px;
+}
+
+.right-part {
+  width: 650px;
+}
+
+.top {
+  height: 100px;
+}
+
+
+.tip_card {
+  padding: 3px;
+  background: #767676;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Arial";
+  opacity: 0.5;
+  line-height: 10px;
+  /* top: 100px !important;
+  left: 100px !important; */
+}
+.tip_card_circular_bar {
+  padding: 5px;
+  background: #767676;
+  color: #FFF;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Arial";
+  font-style: italic;
+  opacity: 0.1;
+  line-height: 10px;
+  /* top: 515px !important;
+  left: 940px !important; */
+}
+.axis_x line{
+  stroke: #767676;
+  stroke-width: 2px;
+}
+.axis_y line{
+  stroke: #767676;
+  stroke-width: 2px;
+}
+.axis_x path{
+  stroke: #767676;
+  stroke-width: 2px;
+}
+.axis_y path{
+  stroke: #767676;
+  stroke-width: 2px;
+}
+.axis_x text{
+  fill: #767676;
+  font-size: 14px;
+}
+.axis_y text{
+  fill: #767676;
+  font-size: 14px;
+}
+
+.forSearch {
+  width:100px;
+  text-align:center;
+  line-height:100%;
+  padding:0.3em;
+  font:16px Arial,sans-serif bold;
+  font-style:normal;
+  text-decoration:none;
+  margin:2px;
+  vertical-align:text-bottom;
+  zoom:1;
+  outline:none;
+  font-size-adjust:none;
+  font-stretch:normal;
+  border-radius:50px;
+  box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+  text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+  color:#fefee9;
+  border:0.2px solid #ff5a5f;
+  background-repeat:repeat;
+  background-size:auto;
+  background-origin:padding-box;
+  background-clip:padding-box;
+  background-color:#ff5a5f;
+  background: linear-gradient(to bottom, #eeeff9 0%,#ff5a5f 100%);
+}
+
+.forSearch:hover {
+ background: #ff5a5f;
+}
+
+.right_part_bottom{
+  margin : 0 px;
+}
+
+.plotmargin{
+  position:relative;
+  padding:0;
+  margin:0;
+}
+
+hr {
+  width: 600px;
+  border-radius: 7px;
+  fill: #ccc;
+  margin-left: 20px;
+  padding: 0;
+}
